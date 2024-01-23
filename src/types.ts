@@ -5,7 +5,6 @@ export interface UpstreamOptions {
   domain: string;
   protocol?: "http" | "https";
   port?: number;
-  timeout?: number;
   onResponse?: onResponseCallback | onResponseCallback[];
   onRequest?: onRequestCallback | onRequestCallback[];
 }
