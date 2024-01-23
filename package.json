@@ -1,7 +1,7 @@
 {
   "name": "@latticehr/reflare",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "check": "tsc --noEmit",
     "build": "tsc && rm -rf ./dist/tests && mv ./dist/src/* ./dist && rm -rf ./dist/src",
