@@ -137,3 +137,16 @@ reflare.push({
 ## Contributing
 
 We welcome contributions! If you have ideas for improvements or have found a bug, please feel free to open an issue or submit a pull request.
+
+## Contributor License Agreement
+
+By contributing to Reflare, you agree to the terms of our Contributor License Agreement (CLA) outlined [here](CLA_DOCUMENT.md). This agreement helps ensure that your contributions are used in a manner consistent with the project's goals and legal requirements.
+
+Why a CLA?
+A CLA clarifies the rights you, as a contributor, are granting to us, the maintainers of Reflare. It ensures that you understand your rights and agree to share your contributions under the same license as the project. This helps us maintain the project's open-source nature.
+
+How to Agree to the CLA
+When you submit a pull request, you are implicitly acknowledging and agreeing to the terms of the CLA. This is a standard practice to protect you, the project, and users of the project. It ensures that the contributions can be freely used while protecting your rights as a contributor.
+
+Questions or Concerns?
+If you have any questions or concerns about the CLA, please open an issue for discussion before making a contribution.
