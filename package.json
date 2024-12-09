@@ -1,0 +1,33 @@
+{
+  "name": "@latticehr/reflare",
+  "version": "0.3.0",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/latticehr/reflare.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc && rm -rf ./dist/tests && mv ./dist/src/* ./dist && rm -rf ./dist/src",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "3.11.0",
+    "@types/jest": "27.5.1",
+    "tslib": "2.3.0",
+    "typescript": "5.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.5",
+    "jest": "29.6.1",
+    "jest-environment-miniflare": "2.7.1",
+    "ts-jest": "^29.0.1",
+    "ts-node": "^10.9.2"
+  }
+}

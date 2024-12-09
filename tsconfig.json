@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext"],
+    "types": ["jest", "@cloudflare/workers-types"],
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": ["src/**/*", "tests/**/*.ts"]
+}
