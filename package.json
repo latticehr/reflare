@@ -1,6 +1,6 @@
 {
   "name": "@latticehr/reflare",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "license": "MIT",
   "type": "module",
   "repository": {
@@ -47,6 +47,9 @@
       ".": "./src/index.ts"
     }
   },
+  "files": [
+    "dist"
+  ],
   "module": "./dist/esm/index.js",
   "dependencies": {
     "ts-node": "^10.9.2"
