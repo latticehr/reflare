@@ -1,7 +1,11 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "types": ["@cloudflare/workers-types", "jest"]
+    "lib": ["esnext", "DOM"],
+    "types": ["@cloudflare/workers-types", "jest", "node", "global.d.ts"],
+    "typeRoots": ["./", "../node_modules/@types",],
+    "module": "ES2022",
+    "moduleResolution": "bundler"
   },
   "include": ["**/*"]
 }

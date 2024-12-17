@@ -1,16 +1,20 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "lib": ["esnext"],
-    "types": ["jest", "@cloudflare/workers-types"],
+    "target": "ES2022",
+    "module": "ES2022",
     "moduleResolution": "bundler",
+    "lib": ["esnext", "DOM"],
     "strict": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "baseUrl": "./",
+    "declarationMap": true,
+    "sourceMap": true,
     "outDir": "dist",
-    "rootDir": "."
+    "rootDir": "src",
+    "types": ["jest", "@cloudflare/workers-types"]
   },
-  "include": ["src/**/*", "tests/**/*.ts"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "tests"]
 }
